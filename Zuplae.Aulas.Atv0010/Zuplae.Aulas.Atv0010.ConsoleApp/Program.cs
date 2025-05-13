@@ -10,6 +10,7 @@ namespace Zuplae.Aulas.Atv0010.ConsoleApp
     {
         static void Main(string[] args)
         {
+<<<<<<< HEAD
             Console.WriteLine("========================== ATV-0010 ==========================");
             Console.WriteLine("Digite o nome da cidade: ");
             string cidade = Console.ReadLine();
@@ -23,6 +24,8 @@ namespace Zuplae.Aulas.Atv0010.ConsoleApp
             double pib = double.Parse(Console.ReadLine());
 
             Console.WriteLine($"Os dados digitados foram: Cidade: {cidade}, Estado: {estado}, País: {pais}, População: {populacao} e o PIB: {pib}");
+=======
+>>>>>>> feature/estrutura_projeto
         }
     }
 }
